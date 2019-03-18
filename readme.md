@@ -12,6 +12,6 @@ nohup java -jar user-peer1.jar>user1.out 2>&1 &
 nohup java -jar user-peer2.jar>user2.out 2>&1 &
 
 # 访问
-http://ip:8771/
-http://ip:8772/
-![注册中心](https://note.youdao.com/yws/public/resource/030c5ed1a14c969b99e35b06051c9f7a/xmlnote/C1198B87FEEB42498FEB2F469BCAB428/65138)
+http://ip:8771/  
+http://ip:8772/  
+![注册中心](https://note.youdao.com/yws/public/resource/030c5ed1a14c969b99e35b06051c9f7a/xmlnote/D8A74FEBE1BC4DF38557A65880439EC9/65675)
