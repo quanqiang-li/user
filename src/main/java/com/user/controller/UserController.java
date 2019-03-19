@@ -24,6 +24,12 @@ public class UserController {
 	@PostMapping("getUser")
 	public String getUser(String name) {
 		logger.info("请求端口{}的用户{}", port, name);
+		try {
+			//暂停10秒
+			Thread.sleep(1000 * 10);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 		return "请求端口" + port + "的用户" + name;
 	}
 
